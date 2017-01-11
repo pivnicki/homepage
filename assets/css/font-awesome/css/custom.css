@@ -1,0 +1,437 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.06.2016., 14.10.56
+    Author     : Stevan Pivnicki
+*/
+
+
+
+*{
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+     -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+
+
+
+body{
+    font-family: "Varela+Round",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizelegibility;
+    font-weight: bold; 
+}
+
+h2 {
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+h2:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0;
+    left: 35%;
+    border-bottom: 1px solid  aquamarine;
+}
+
+.credit-card-png{
+    margin-right: 12px;
+    height: 31px;
+}
+
+.navbar-brand{
+    font-weight:  bolder;
+
+}
+
+
+.navbar-default {
+    background-color: #fff;
+    border-style: solid;
+    border-bottom-color: rgb(93,167,207);
+    border-bottom-width:  4px;
+    height: 58px;
+    margin-bottom: 0;
+}
+
+.modal-content {
+    /* new custom width */
+    width: 1280px;
+    height:720px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: -150px;
+}
+
+.navbar-brand em{
+    color:  #00cccc;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    font-size: 1.8vw;
+    margin: 4px 50px 0 81px;
+}
+
+.navbar-nav {
+    margin: 0px 0 0 0;
+    height: 64px;
+}
+
+.active{
+    background-color: #5da7cf;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #5da7cf;
+}
+
+.navbar-nav > li {
+    float: left;
+    padding-top: 6px;
+}
+
+.navbar-nav > li > a {
+    font-size: 10px;
+}
+
+.questions li a{
+    padding: 0;
+    font-size: 10px;
+}
+
+.questions li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(0,204,204) !important;
+    height: 20px;
+}
+
+
+
+/*============JUMBOTRON==================*/
+
+.jumbotron{
+    height: 600px;
+    background-image: url("../../../img/chart.jpg");
+    margin-bottom: 0;
+
+
+}
+
+.jumbo-row{
+    margin-top: 40px;
+}
+
+.jumbotron h1{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: bold;
+
+}
+
+.jumbotron p{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.jumbotron .left-column{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.jumbotron .left-column ul{
+    list-style-type: none;
+
+}
+
+.jumbotron .left-column ul li{
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    margin: 15px 0;
+}
+
+.fa{
+    color: #fff;
+}
+
+.frame-button{
+    width: 300px;
+    height: 80px;
+    background-color:  #51c1d4;
+    outline: rgba(120, 180, 221, 0.2) solid 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.play-button{
+    border-radius: 50%!important;
+    width: 100px;
+    height:100px;
+    border: #fff solid 5px;
+    background-color:  #51c1d4;
+    position: absolute; 
+    top: 100px; 
+    left: 35%;
+}
+
+.play-image{
+    width: 490px;
+    height: 315px;
+    border:  #000000 15px solid;
+}
+
+/*======Services offered=====*/
+
+.div-border-top{
+    border-top:  #00cccc solid thin;
+}
+
+.div-border-top h3{
+    text-transform: uppercase;
+}
+
+.div-border-top h3:hover{
+    text-transform: uppercase;
+    color: #00cccc ;
+}
+
+
+.btn-custom{
+    border:  #999 solid 2px;
+}
+.btn-custom:hover{
+    border:  #00cccc solid 2px;
+    background-color: #00cccc;
+    color: #fff;
+}
+
+/*=====REAL CLIENT EXPERIENCES===== */
+
+#client-experiences{
+    background-color: #00cccc;
+    margin: 20px 0 0 0;
+    color: #fff;
+    height:500px;
+}
+
+.carousel-indicators {
+
+    top: 250px;
+}
+
+#client-experiences h2{
+    color:#fff;
+}
+
+#client-experiences .item{
+    background-color:  #00cccc;
+}
+
+.carousel {
+
+    top: 99px;
+}
+
+.carousel-control.right,.carousel-control.left{
+    display: none;
+}
+
+/*===FAQ===*/
+
+#faq{
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+.faq-title{
+    margin: 0 0 50px 0;
+}
+
+
+.panel-title{
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+
+.panel-title:hover{
+    color: #00cccc;text-decoration: none !important;
+
+
+}
+
+.panel-body{
+    text-align: justify;
+    padding-left: 106px;
+    background-color: rgb(245,245,245);
+}
+
+.circle{
+    border-radius: 50%;
+    padding-top: 0px;
+    padding-left: 10px;
+    width: 38px;
+    height: 37px;
+    background-color: #00cccc;
+    position: relative;
+    top: 11px;
+    color: #fff;
+    font-size: 28px;
+    float: left;
+    margin: -10px 28px 0 0;
+}
+
+.circle:hover{
+    background-color: #fff;
+    border:  #00cccc 2px solid;
+    color:#00cccc;
+    padding-top: -9px;
+    padding-left: 8px;
+}
+
+.panel-default {
+    border-color: #f3f8f6;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #fff;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    height: 64px;
+}
+
+.panel-heading a{
+    position: relative;
+    margin: 10px 0 0 54px;
+}
+
+/*===TEMPOR===*/
+
+#tempor{
+
+    height: 420px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../img/Business-meeting.jpg");
+    background-position: center center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+#tempor .container .row .text-center{
+    padding-top: 50px;
+}
+
+.tempor-text{
+    position: relative;
+    margin: -35px 0 0 0;
+}
+
+#tempor .tempor-button{
+    position: relative;
+    margin-top: -35px;
+}
+
+/*===CONTACT===*/
+
+#contact{
+    background-color: #333333;
+    color: #fff;
+    height: 230px;
+}
+
+.container-contact{
+    position: relative;
+    margin: 40px 0 0 0;
+}
+
+.container-contact a{
+    color: #fff !important;
+}
+
+.container-contact a:hover{
+    color:  #5da7cf !important;
+    text-decoration: none;
+}
+
+.contact-second-row{
+    position: relative;
+    margin: 70px 0 0 0;
+}
+/*===FOOTER===*/
+
+#footer-section{
+    background-color: #000000;
+    color: #fff;
+    height: 100px;
+}
+
+.footer-text{
+    padding-top: 46px;
+}
+
+/*========CHEVRON==========*/
+
+.panel-heading.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'Glyphicons Halflings';
+    /* essential for enabling glyphicon */
+    content:"\e114";
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    position: relative;
+    bottom: 23px;
+    font-size: 15pt;
+    /* adjust as needed */
+    color: grey;
+    /* adjust as needed */
+}
+.panel-heading.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content:"\e113";
+    /* adjust as needed, taken from bootstrap.css */
+}
+.panel-heading:hover {
+    cursor: pointer;
+}
+.panel-heading:hover h4 {
+    text-decoration: underline;
+}
+@media  (min-width: 768px) {
+    div.col-sm-7.five-three {
+        width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+        width: 40% !important;
+    }
+}
